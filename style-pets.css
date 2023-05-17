@@ -1,0 +1,158 @@
+/* >1280px Start*/
+
+.intro-pets{
+  max-width: 1280px;
+}
+
+.h1{
+  color: #545454;
+}
+
+.logo-p{
+  color: #292929;
+}
+
+li > a{
+  color: #292929;
+}
+
+.header-pets{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 60px;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 30px 40px 30px 40px;
+}
+
+.h-logo-wrap-pets{
+  display: flex;
+  width: 184px;
+  height: 60px;
+  margin-left: 0px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.section-pets{
+  height: 1262px;
+  background: #F6F6F6;
+  padding-top: 80px;
+  width: 1280px;
+}
+
+
+
+.section-pets-h2{
+   margin: 0px auto 60px auto;
+  width: 400px;
+  height: 90px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  text-align: center;
+}
+
+.pets-line-div{
+  display: flex;
+  width: 1200px;
+  height: 435px;
+  flex-wrap: nowrap;
+  margin: 0px 40px 30px 40px;
+}
+
+.pets-line-box{
+  width: 270px;
+  height: 435px;
+  margin-right: 40px;
+  background: #FAFAFA;
+  border-radius: 9px;
+}
+
+.pets-line-box:last-child{
+  margin-right: 0px;
+}
+
+.pets-line-box-img{
+  width:270px;
+  height: 270px;
+  margin-bottom: 30px;
+}
+
+.pets-line-box-p{
+  width: 74px;
+  height: 23px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  text-align: center;
+  margin: 0px auto 30px auto;
+}
+
+.pet-line-box-button{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 45px;
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  margin: 0px auto 30px auto;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  white-space: nowrap;
+}
+
+.pets-rolls-box{
+  width: 340px;
+  height: 52px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 60px auto 100px auto;
+}
+
+.pets-rolls-box-center{
+  background: #F1CDB3;
+  border-radius: 100px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.pets-rolls-box-circle{
+  width: 52px;
+  height: 52px;
+  margin-right: 20px;
+}
+
+.last-circle{
+  margin-right: 0px;
+}
+
+/* >1280px End*/
+
+
+/* 1280px-768px Start*/
+
+
+
+/* 1280px-768px End*/
