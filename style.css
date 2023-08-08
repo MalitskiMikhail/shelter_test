@@ -59,10 +59,11 @@ a{
 }
 
 .intro{
-  background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #211F20;
+  background: url(445.png), lightgray 50% / cover no-repeat;
+  background-size: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
-
 }
 /* Header Start */
 
@@ -325,7 +326,6 @@ margin: 0px 60px 25px 0px;
   width: 270px;
   height: 435px;
   background: #FAFAFA;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
   margin-right: 90px;
   display: flex;
@@ -591,8 +591,8 @@ margin: 0px;
 
 .footer{
   height: 350px;
-  background: url(noise_lines_transparent@2X.png),
-  radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+  background: url(445.png), lightgray 50% / cover no-repeat;
+  background-size: 100%;
   display: flex;
 
   justify-content: center;
@@ -764,9 +764,58 @@ height: 310px;
 
 /*Interactive Start */
 
-.intro-button:hover, a:hover{
+html{
+  scroll-behavior: smooth;
+}
+
+.intro-button:hover, a:not(.h-nav-1):hover{
   opacity: 0.8;
   transition: 0.2s;
+  cursor: pointer;
+}
+
+.h-nav-1{
+  cursor: default;
+}
+
+.our-friends-table:hover{
+  opacity: 0.95;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 1px 16px 47px 1px rgba(185, 151, 116, 0.6);
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.our-friends-table-button:hover{
+  opacity: 0.8;
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #e4965e;
+  box-shadow: 1px 16px 47px 1px rgba(185, 151, 116, 0.6);
+}
+
+.help-box:hover >  p{
+  opacity: 0.8;
+  transition: 0.2s;
+  cursor: pointer;
+  color: #e4965e;
+}
+
+.help-box:hover{
+  opacity: 0.8;
+  transition: 0.2s;
+  cursor: pointer;
+  color: #e4965e;
+}
+.our-friends-right-arrow:hover, .our-friends-left-arrow:hover{
+  opacity: 0.8;
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #e4965e;
+  border-radius: 100% ;
 }
 
 /*Interactive END */
