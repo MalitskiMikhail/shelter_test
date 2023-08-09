@@ -1,10 +1,31 @@
-/* >1280px Start*/
+/* >1280px Start */
+.main-pets{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
-.intro-pets{
-  max-width: 1280px;
+.section-pets0{
+  display: flex;
+  justify-content: center;
+}
+
+.header-pets{
+  height: 60px;
+  margin: 0px 40px 30px 40px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
 }
 
 .h1{
+  font-family: Georgia;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 1.92px;
   color: #545454;
 }
 
@@ -16,14 +37,11 @@ li > a{
   color: #292929;
 }
 
-.header-pets{
-  display: flex;
-  flex-wrap: nowrap;
-  height: 60px;
-  width: 1200px;
-  justify-content: space-between;
-  margin: 30px 40px 30px 40px;
+body > main > section.section-pets0 > div > header > nav > ul > li:nth-child(2) > a{
+  border-bottom: solid 3px #F1CDB3 ;
+  color: #292929;
 }
+
 
 .h-logo-wrap-pets{
   display: flex;
@@ -36,15 +54,17 @@ li > a{
 }
 
 .section-pets{
-  height: 1262px;
+  height: 1342px;
   background: #F6F6F6;
-  padding-top: 80px;
-  width: 1280px;
+  display: flex;
+  justify-content: center;
+
 }
 
 
 
 .section-pets-h2{
+  padding-top: 80px;
    margin: 0px auto 60px auto;
   width: 400px;
   height: 90px;
@@ -79,7 +99,7 @@ li > a{
 }
 
 .pets-line-box-img{
-  width:270px;
+  width: 270px;
   height: 270px;
   margin-bottom: 30px;
 }
@@ -142,6 +162,7 @@ li > a{
   width: 52px;
   height: 52px;
   margin-right: 20px;
+  border-radius: 100%;
 }
 
 .last-circle{
@@ -156,3 +177,28 @@ li > a{
 
 
 /* 1280px-768px End*/
+
+/* Hovers Start*/
+.pets-line-box:hover{
+  opacity: 0.95;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 1px 16px 47px 1px rgba(185, 151, 116, 0.6);
+}
+
+.pet-line-box-button:hover{
+  opacity: 0.8;
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #e4965e;
+  box-shadow: 1px 16px 47px 1px rgba(185, 151, 116, 0.6);
+}
+
+.pets-rolls-box-circle:hover, .pets-rolls-box-center:hover{
+  opacity: 0.8;
+  transition: 0.2s;
+  cursor: pointer;
+  background-color: #e4965e;
+  box-shadow: 1px 16px 47px 1px rgba(185, 151, 116, 0.6);
+}
+/* Hovers End*/
