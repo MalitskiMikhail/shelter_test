@@ -80,7 +80,7 @@ body > main > section.section-pets0 > div > header > nav > ul > li:nth-child(2) 
 
 .pets-line-div{
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   height: 435px;
   flex-wrap: nowrap;
   margin: 0px 40px 30px 40px;

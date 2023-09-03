@@ -34,7 +34,6 @@
 
 /* Fonts End*/
 
-
 /* General Start */
 html, main, section, body, header, h1{
   margin: 0px;
@@ -51,6 +50,7 @@ a{
 }
 
 /* General End */
+
 /* Main Start */
 .main{
   display: flex;
@@ -59,8 +59,7 @@ a{
 }
 
 .intro{
-  background: url(445.png), lightgray 50% / cover no-repeat;
-  background-size: 100% 100%;
+  background: url(./noise_transparent@2x.png), radial-gradient(549.89% 73.65% at 5.73% 50.00%, #513D2F 0%, #1A1A1C 100%);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
@@ -70,7 +69,7 @@ a{
 .header{
   height: 60px;
   max-width: 1200px;
-  margin: 0px 40px 90px 40px;
+  margin: 0px auto 90px auto;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -438,14 +437,14 @@ margin: 0px 60px 25px 0px;
   margin: 0px 127px 55px 127px;
   height: 113px;
   padding: 0px;
-  width: 1026px;
+  max-width: 1026px;
 }
 
 .help-row-2{
   display: flex;
   max-width: 858px;
   margin: 0px 211px 100px 211px;
-  width: 1026px;
+  max-width: 1026px;
   height: 113px;
   padding: 0px;
 }
@@ -590,16 +589,15 @@ margin: 0px;
 
 .footer{
   height: 350px;
-  background: url(445.png), lightgray 50% / cover no-repeat;
-  background-size: 100% 100%;
+  background: url(./noise_transparent@2x.png), linear-gradient(to top left, #262425, #5B483A);
   display: flex;
   justify-content: center;
 }
 
 .footer-div{
   height: 310px;
-  width: 1200px;
-  margin: 40px 40px 0px 40px;
+  max-width: 1200px;
+  margin: 40px auto 0px 40px;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -749,16 +747,72 @@ height: 310px;
 }
 /* Footer End*/
 
+/* 768 Start*/
 
-/* Pets Start*/
+@media (max-width: 1280px) and (min-width: 768px) {
 
-.section{
-  position: absolute;
-  height: 1342px;
-  background: #F6F6F6;
+.wrapper{
+  width: 100vw;
+  max-width: 1280px;
+  min-height: 708px;
 }
 
-/* Pets End*/
+.header{
+  width: calc(100vw - 60px);
+  margin: 0px 30px 60px 30px;
+}
+
+.intro{
+  box-shadow: none;
+  height: 1165px;
+}
+
+.intro-dog-div{
+  max-width: calc(100vw - 26.05%);
+  max-height: 1165px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 12.89vw;
+}
+
+.intro-dog-description{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto 100px 55px;
+}
+
+.intro-p{
+  width: 460px;
+}
+
+
+.intro-button-wrapper{
+  margin: 0 auto 0 auto;
+}
+
+.div-dog-picture-img{
+  width: 569px;
+  height: 593px;
+  margin: 0px auto 0px 70px;
+}
+
+.about-only{
+  height: 1048px;
+}
+
+.about-div-center{
+  display: flex;
+  flex-direction: column;
+  height: 868px;
+}
+
+.about-img-div:nth-child(1){
+  order:2;
+ /* margin: 475px 175px 100px 165px;*/
+}
+
+}
+/* 768 End*/
 
 
 /*Interactive Start */
@@ -816,5 +870,8 @@ a:hover{
   background-color: #e4965e;
   border-radius: 100% ;
 }
+
+.about-decription-div{
+  margin: 0px 0px 14px 0px;}
 
 /*Interactive END */
