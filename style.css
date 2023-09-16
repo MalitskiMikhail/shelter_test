@@ -45,8 +45,8 @@ a{
 }
 
 .wrapper{
+  width: 100vw;
   max-width: 1280px;
-  flex: 1;
 }
 
 /* General End */
@@ -145,6 +145,7 @@ body > div > header > nav > ul > li:nth-child(5) {
 
 .intro-dog-div{
   max-width: 1200px;
+
   height: 728px;
   display: flex;
   flex-wrap: nowrap;
@@ -410,6 +411,7 @@ margin: 0px 60px 25px 0px;
 
 .help-h2{
   max-width: 1280px;
+  width: 100vw;
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -765,6 +767,7 @@ height: 310px;
 .intro{
   box-shadow: none;
   height: 1165px;
+  width: 100vw;
 }
 
 .intro-dog-div{
@@ -773,12 +776,13 @@ height: 310px;
   display: flex;
   flex-wrap: wrap;
   margin-left: 12.89vw;
+  margin-right: 12.89vw;
 }
 
 .intro-dog-description{
   display: flex;
   flex-wrap: wrap;
-  margin: 0px auto 100px 55px;
+  margin: 0px 7.03vw 100px 7.03vw;
 }
 
 .intro-p{
@@ -798,17 +802,84 @@ height: 310px;
 
 .about-only{
   height: 1048px;
+  width: 100vw;
 }
 
 .about-div-center{
+  width: 56.90vw;
   display: flex;
   flex-direction: column;
   height: 868px;
+  margin-right: 21.61vw;
+  margin-left: 21.38vw;
 }
 
 .about-img-div:nth-child(1){
   order:2;
  /* margin: 475px 175px 100px 165px;*/
+}
+
+.about-description-h2, .about-decription-p1, .about-decription-p2{
+  margin-left: 4px;
+  margin-right: 3.5px;
+}
+
+.about-decription-div{
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+.about-img-div{
+  margin: 0 auto;
+}
+
+.help-h2{
+  max-width: 1280px;
+  width: 100vw;
+}
+
+.table-1{
+  display: none;
+}
+
+.our-friends{
+  width: 100vw;
+  max-width: 1280px;
+}
+
+.our-friends-h2-div{
+  margin-left: 23.69vw;
+  margin-right: 23.69vw;
+}
+
+.our-friends-center{
+  margin: 0 3.9vw;
+  max-width: 708px;
+  width: 92.19vw;
+}
+
+.our-friends-table{
+  margin-right: 5.1vw;
+}
+
+.our-friends-left-arrow{
+  width: 52px;
+  height: 52px;
+  margin: auto 12px auto 0px;
+}
+
+.our-friends-right-arrow{
+  width: 52px;
+  height: 52px;
+  margin: auto 0px auto 12px;
+}
+
+#our-friends-anc > div > div.our-friends-center > div:nth-child(3){
+  margin-right: 0px;
+}
+
+.our-friends-button{
+  margin: 60px auto 0px auto;
 }
 
 }
@@ -871,7 +942,4 @@ a:hover{
   border-radius: 100% ;
 }
 
-.about-decription-div{
-  margin: 0px 0px 14px 0px;}
-
-/*Interactive END */
+/*Interactive END*/
